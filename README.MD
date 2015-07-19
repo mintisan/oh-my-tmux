@@ -4,7 +4,7 @@
 git clone https://github.com/mintisan/oh-my-tmux.git ~/.tmux
 ```
 
-2.create simple link `.tmux.conf` to home path
+2.create symbolic link `.tmux.conf` to home path
 ```
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
