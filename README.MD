@@ -14,14 +14,14 @@ ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-4.reload Tmux config
-```
-tmux source ~/.tmux.conf
-```
-
-5.startup `tmux`
+4. startup `Tmux`
 ```
 tmux
+```
+
+5.reload Tmux config
+```
+tmux source ~/.tmux.conf
 ```
 
 6.install & update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
