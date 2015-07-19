@@ -1,6 +1,5 @@
 
 # independent in different devices
 resurrect
-
-plugins/tmux-*
-plugins/tpm/.git/
+# no-plugins
+plugins

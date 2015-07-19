@@ -1,20 +1,30 @@
 
 1.clone `.tmux` to home path
 ```
-git clone git@github.com:mintisan/oh-my-tmux.git ~/.tmux
+git clone https://github.com/mintisan/oh-my-tmux.git ~/.tmux
 ```
 
-2.create soft link `.tmux.conf` to home path
+2.create simple link `.tmux.conf` to home path
 ```
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
 
-3.startup `tmux`
+3.install Tmux Plugin Manager
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+4.reload Tmux config
+```
+tmux source ~/.tmux.conf
+```
+
+5.startup `tmux`
 ```
 tmux
 ```
 
-4.install [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
+6.install & update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
 ```
 Ctrl+b + I # waiting for installed...
 
