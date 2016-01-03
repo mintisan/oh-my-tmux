@@ -1,34 +1,45 @@
+# Oh My [Tmux](http://tmux.github.io/)
 
-1.clone `.tmux` to home path
-```
-git clone https://github.com/mintisan/oh-my-tmux.git ~/.tmux
-```
+> Some Config and Plugin for Easing my operation
 
-2.create symbolic link `.tmux.conf` to home path
-```
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
-```
+![](./attach/final_effect.png)
 
-3.install Tmux Plugin Manager
-```
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
+1. Clone this [Repo.](https://github.com/mintisan/oh-my-tmux) to a path you like, such as `HOME`:
 
-4.startup `Tmux`
-```
-tmux
-```
+    ```
+    git clone https://github.com/mintisan/oh-my-tmux.git ~/oh-my-tmux
+    ```
 
-5.reload Tmux config
-```
-tmux source ~/.tmux.conf
-```
+2. Create symbolic link `.tmux.conf` to home path
 
-6.install & update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
-```
-Ctrl+b + I # waiting for installed...
+    ```
+    ln -s ~/oh-my-tmux/.tmux.conf ~/.tmux.conf
+    ```
 
-Ctrl+b + U # waiting for updating...
+3. Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 
-Ctrl+b + r # let Tmux config work
-```
+    ```
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    ```
+
+4. Startup `Tmux`
+
+    ```
+    tmux
+    ```
+
+5. Reload Tmux config
+
+    ```
+    tmux source ~/.tmux.conf
+    ```
+
+6. Install & Update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
+
+    ```
+    Ctrl+b + I # waiting for installed...
+
+    Ctrl+b + U # waiting for updating...
+
+    Ctrl+b + r # let Tmux config work
+    ```
