@@ -4,17 +4,19 @@
 
 ![](./attach/final_effect.png)
 
-1. Clone this [Repo.](https://github.com/mintisan/oh-my-tmux) to a path you like, such as `HOME`:
+1. Clone this [Repo.](https://github.com/mintisan/oh-my-tmux) to a path you like, such as `HOME` or anywhere you want:
 
     ```
     git clone https://github.com/mintisan/oh-my-tmux.git ~/oh-my-tmux
     ```
 
-2. Create symbolic link `.tmux.conf` to home path
+2. Change the directory you just cloned(maybe `cd ~/oh-my-tmux`), and create symbolic link `.tmux.conf` to `$HOME` path
 
     ```
-    ln -s ~/oh-my-tmux/.tmux.conf ~/.tmux.conf
+    ln -s $PWD/oh-my-tmux/.tmux.conf ~/.tmux.conf
     ```
+> When you execute `echo $PWD` in shell, you will know what the `$PWD` means. 
+> Yes, it means the path of current directory you stayed.
 
 3. Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 
