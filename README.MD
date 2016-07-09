@@ -13,7 +13,7 @@
 2. Change the directory you just cloned(maybe `cd ~/oh-my-tmux`), and create symbolic link `.tmux.conf` to `$HOME` path
 
     ```
-    ln -s $PWD/oh-my-tmux/.tmux.conf ~/.tmux.conf
+    ln -s $PWD/oh-my-tmux/tmux.conf ~/.tmux.conf
     ```
 > When you execute `echo $PWD` in shell, you will know what the `$PWD` means. 
 > Yes, it means the path of current directory you stayed.
