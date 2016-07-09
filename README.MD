@@ -45,3 +45,8 @@
 
     Ctrl+b + r # let Tmux config work
     ```
+or just use below shell after you backup your old tmux.conf
+
+```
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-tmux/master/install.sh)"
+```
